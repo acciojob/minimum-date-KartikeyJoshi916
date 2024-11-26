@@ -1,5 +1,5 @@
 function minDate(dates) {
-	var min="2023/12/01";
+	var min=dates[0];
 	for(let i=0;i<dates.length;i++){
 		if(dates[i]<min]){
 			min=dates[i];
